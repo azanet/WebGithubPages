@@ -15,11 +15,11 @@ remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "azanet.io"
 title_separator          : "-"
 name                     : "Azanet"
-description              : "Blog orientado a Ciberseguridad y Varias Tecnologías"
+description              : "Página personal orientada a Ciberseguridad y Varias Tecnologías"
 url                      : "https://azanet.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "azanet/azanet.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -120,7 +120,7 @@ author:
   keybase          : #"username"
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         :  "david-freyre-muñoz-1b91b2141" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
