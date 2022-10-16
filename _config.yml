@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Azanet"
-  avatar           : #"/assets/images/avatar.png"
+  avatar           : "http://www.avatarsinpixels.com/minipix/eyJCb2R5IjoiMSIsIkV5ZXMiOiIyNiIsIlBhbnRzIjoiMSIsIkJlbHQiOiIxIiwiSmFja2V0IjoiMSIsIkhhaXIiOiIyMCIsIkdsYXNzZXMiOiI4IiwiSGF0IjoiNiIsInNraW5Ub25lIjoiNzk2OWYxIiwicGFudHNUb25lIjoiODg4ODg4Iiwic2hvZXNUb25lIjoiMDBlZjA2IiwiaGF0VG9uZSI6IjAwMDAwMCIsImhhdFRvbmUyIjoiMDBlZjA2IiwiYmVsdFRvbmUiOiIwMGVmMDYiLCJuZWNrVG9uZSI6ImZkMDAwMCJ9/1/show.png"
   bio              : "Pentester, Hacker Ético, RedTeam, Desarrollador, Analista SOC"
   location         : "Canary Islands"
   email            : "azan3t@gmail.com"
