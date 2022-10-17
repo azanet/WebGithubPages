@@ -23,7 +23,7 @@ tags:
 ![Image Not Found U_U](/assets/images/instalando-wireguard-+-duckdns-en-raspberrypi-3/wi_pi.png)
 </span>
 
-En este post, se procederá a instalar y configurar un servicio DDNS (DNS Dinámico) se utilizará DuckDNS y un servidor VPN de WireGuard en una Raspberry Pi 3.
+En este artículo, se procederá a instalar y configurar un servicio DDNS (DNS Dinámico) para el cuál se utilizará DuckDNS y un servidor VPN de WireGuard en una Raspberry Pi 3.
 <br>
 
 ### ¿Qué es DDNS?
