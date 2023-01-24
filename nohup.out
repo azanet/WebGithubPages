@@ -1,0 +1,648 @@
+Type conversion already registered from type QSharedPointer<QNetworkSession> to type QObject*
+228 [APP] qFlipper version 1.2.2 commit ba67025d 2022-12-08T13:31:11
+228 [APP] OS info: Debian GNU/Linux 11 (bullseye) 11 5.10.0-19-amd64 Qt 5.15.2
+229 [REG] Detected new device: VID_0x483:PID_0x5740
+309 [DBG] Trying serial port flip_Humakr at /dev/ttyACM0
+309 [DBG] Using  serial port flip_Humakr at /dev/ttyACM0
+309 [RPC] Starting RPC session...
+368 [UPD] Fetched update information from https://update.flipperzero.one/qFlipper/directory.json
+368 [UPD] Fetched update information from https://update.flipperzero.one/firmware/directory.json
+406 [RPC] RPC session started successfully.
+418 [RPC] (1) System Protobuf Version START
+469 [DBG] Detected protobuf version: 0.14
+469 [RPC] (1) System Protobuf Version SUCCESS
+469 [RPC] (2) Property Get START
+601 [RPC] (2) Property Get SUCCESS
+601 [RPC] (3) Storage Info @/ext START
+662 [RPC] (3) Storage Info @/ext SUCCESS
+668 [RPC] (4) Storage Stat @/ext/Manifest START
+719 [RPC] (4) Storage Stat @/ext/Manifest SUCCESS
+720 [RPC] (5) System Get DateTime START
+771 [DBG] Flipper time skew is -1854 milliseconds
+772 [RPC] (5) System Get DateTime SUCCESS
+772 [RPC] (6) System Set DateTime START
+823 [RPC] (6) System Set DateTime SUCCESS
+836 [RPC] Stopping RPC session...
+837 [RPC] Attempting to unload protobuf plugin...
+837 [RPC] Unloaded protobuf plugin.
+838 [RPC] RPC session stopped successfully.
+838 [REG] Registering the device
+838 [DEV] Version: 0.75.1 commit: 7983c564b radio: 1.13.3
+838 [BKD] Current device changed to "Weeb0"
+952 [RPC] Starting RPC session...
+1105 [RPC] RPC session started successfully.
+1106 [RPC] (1) Gui Start ScreenStream START
+1168 [RPC] (1) Gui Start ScreenStream SUCCESS
+43543 [DEV] Backup Internal storage @Weeb0 START
+43543 [RPC] (2) Gui Start VirtualDisplay START
+43571 [UTL] Backup /int @Weeb0 START
+43603 [RPC] (2) Gui Start VirtualDisplay SUCCESS
+43603 [RPC] (3) Storage List @/int START
+43705 [RPC] (3) Storage List @/int SUCCESS
+43705 [RPC] (4) Storage Read @/int/.bt.keys START
+43770 [RPC] (4) Storage Read @/int/.bt.keys SUCCESS
+43770 [RPC] (5) Storage Read @/int/.bt.settings START
+43837 [RPC] (5) Storage Read @/int/.bt.settings SUCCESS
+43837 [RPC] (6) Storage Read @/int/.desktop.settings START
+43904 [RPC] (6) Storage Read @/int/.desktop.settings SUCCESS
+43904 [RPC] (7) Storage Read @/int/.dolphin.state START
+43971 [RPC] (7) Storage Read @/int/.dolphin.state SUCCESS
+43981 [RPC] (8) Storage Read @/int/.notification.settings START
+44054 [RPC] (8) Storage Read @/int/.notification.settings SUCCESS
+44054 [RPC] (9) Storage Read @/int/.power.settings START
+44123 [RPC] (9) Storage Read @/int/.power.settings SUCCESS
+44123 [RPC] (10) Storage Read @/int/.region_data START
+44188 [RPC] (10) Storage Read @/int/.region_data SUCCESS
+44188 [ZIP] Compressing file with size of 7680 bytes...
+44188 [ZIP] Compression finished: No Error
+44188 [UTL] Backup /int @Weeb0 SUCCESS
+45554 [DEV] Backup Internal storage @Weeb0 SUCCESS
+45557 [RPC] (11) Gui ScreenFrame START
+45557 [RPC] (11) Gui ScreenFrame SUCCESS
+48207 [BKD] Finalized current operation
+48207 [SCR] Screen streaming is already running
+48208 [RPC] (12) Gui Stop VirtualDisplay START
+48271 [RPC] (12) Gui Stop VirtualDisplay SUCCESS
+48281 [RPC] (13) Storage Info @/ext START
+48344 [RPC] (13) Storage Info @/ext SUCCESS
+49639 [RPC] (14) Storage Info @/ext START
+49722 [RPC] (14) Storage Info @/ext SUCCESS
+49727 [RPC] (15) Gui Stop ScreenStream START
+49803 [RPC] (15) Gui Stop ScreenStream SUCCESS
+51386 [RPC] (16) Storage List @/ext START
+51502 [RPC] (16) Storage List @/ext SUCCESS
+54424 [RPC] (17) Storage List @/ext/update START
+54496 [RPC] (17) Storage List @/ext/update SUCCESS
+264043 [RPC] Serial connection was lost.
+264043 [RPC] Stopping RPC session...
+264043 [RPC] Attempting to unload protobuf plugin...
+264043 [RPC] Unloaded protobuf plugin.
+264043 [RPC] RPC session stopped successfully.
+264077 [REG] Device disconnected: VID_0x483:PID_0x5740
+264077 [BKD] Last device was disconnected
+274080 [REG] Detected new device: VID_0x483:PID_0x5740
+274084 [DBG] Trying serial port flip_Humakr at /dev/ttyACM0
+274084 [DBG] Using  serial port flip_Humakr at /dev/ttyACM0
+274084 [RPC] Starting RPC session...
+274200 [RPC] RPC session started successfully.
+274201 [RPC] (1) System Protobuf Version START
+274261 [DBG] Detected protobuf version: 0.14
+274261 [RPC] (1) System Protobuf Version SUCCESS
+274261 [RPC] (2) Property Get START
+274395 [RPC] (2) Property Get SUCCESS
+274395 [RPC] (3) Storage Info @/ext START
+274447 [RPC] (3) Storage Info @/ext SUCCESS
+274447 [RPC] (4) Storage Stat @/ext/Manifest START
+274515 [RPC] (4) Storage Stat @/ext/Manifest SUCCESS
+274515 [RPC] (5) System Get DateTime START
+274578 [DBG] Flipper time skew is -1660 milliseconds
+274578 [RPC] (5) System Get DateTime SUCCESS
+274588 [RPC] (6) System Set DateTime START
+274645 [RPC] (6) System Set DateTime SUCCESS
+274645 [RPC] Stopping RPC session...
+274646 [RPC] Attempting to unload protobuf plugin...
+274646 [RPC] Unloaded protobuf plugin.
+274646 [RPC] RPC session stopped successfully.
+274646 [REG] Registering the device
+274646 [DEV] Version: 0.75.1 commit: 7983c564b radio: 1.13.3
+274646 [BKD] Current device changed to "Weeb0"
+274761 [RPC] Starting RPC session...
+274915 [RPC] RPC session started successfully.
+274916 [RPC] (1) Gui Start ScreenStream START
+274979 [RPC] (1) Gui Start ScreenStream SUCCESS
+279330 [RPC] (2) Storage Info @/ext START
+279431 [RPC] (2) Storage Info @/ext SUCCESS
+279433 [RPC] (3) Gui Stop ScreenStream START
+279529 [RPC] (3) Gui Stop ScreenStream SUCCESS
+280563 [RPC] (4) Storage List @/ext START
+280674 [RPC] (4) Storage List @/ext SUCCESS
+281789 [RPC] (5) Storage List @/ext/update START
+281854 [RPC] (5) Storage List @/ext/update SUCCESS
+283412 [RPC] (6) Storage List @/ext/update/RM0116-0727 START
+283498 [RPC] (6) Storage List @/ext/update/RM0116-0727 SUCCESS
+294762 [RPC] (7) Storage Remove @/ext/update/RM0116-0727/backup.tar START
+294828 [RPC] (7) Storage Remove @/ext/update/RM0116-0727/backup.tar SUCCESS
+294828 [RPC] (8) Storage List @/ext/update/RM0116-0727 START
+294977 [RPC] (8) Storage List @/ext/update/RM0116-0727 SUCCESS
+349930 [RPC] (9) Gui Start ScreenStream START
+350009 [RPC] (9) Gui Start ScreenStream SUCCESS
+372798 [DEV] Backup Internal storage @Weeb0 START
+372799 [RPC] (10) Gui Start VirtualDisplay START
+372799 [UTL] Backup /int @Weeb0 START
+372864 [RPC] (10) Gui Start VirtualDisplay SUCCESS
+372864 [RPC] (11) Storage List @/int START
+372953 [RPC] (11) Storage List @/int SUCCESS
+372965 [RPC] (12) Storage Read @/int/.bt.keys START
+373031 [RPC] (12) Storage Read @/int/.bt.keys SUCCESS
+373031 [RPC] (13) Storage Read @/int/.bt.settings START
+373098 [RPC] (13) Storage Read @/int/.bt.settings SUCCESS
+373098 [RPC] (14) Storage Read @/int/.desktop.settings START
+373164 [RPC] (14) Storage Read @/int/.desktop.settings SUCCESS
+373164 [RPC] (15) Storage Read @/int/.dolphin.state START
+373231 [RPC] (15) Storage Read @/int/.dolphin.state SUCCESS
+373231 [RPC] (16) Storage Read @/int/.notification.settings START
+373298 [RPC] (16) Storage Read @/int/.notification.settings SUCCESS
+373299 [RPC] (17) Storage Read @/int/.power.settings START
+373365 [RPC] (17) Storage Read @/int/.power.settings SUCCESS
+373365 [RPC] (18) Storage Read @/int/.region_data START
+373432 [RPC] (18) Storage Read @/int/.region_data SUCCESS
+373432 [ZIP] Compressing file with size of 7680 bytes...
+373432 [ZIP] Compression finished: No Error
+373432 [UTL] Backup /int @Weeb0 SUCCESS
+374801 [DEV] Backup Internal storage @Weeb0 SUCCESS
+374801 [RPC] (19) Gui ScreenFrame START
+374801 [RPC] (19) Gui ScreenFrame SUCCESS
+391319 [BKD] Finalized current operation
+391319 [SCR] Screen streaming is already running
+391320 [RPC] (20) Gui Stop VirtualDisplay START
+391381 [RPC] (20) Gui Stop VirtualDisplay SUCCESS
+391392 [RPC] (21) Storage Info @/ext START
+391454 [RPC] (21) Storage Info @/ext SUCCESS
+463403 [RPC] (22) Storage Info @/ext START
+463473 [RPC] (22) Storage Info @/ext SUCCESS
+463498 [RPC] (23) Gui Stop ScreenStream START
+463570 [RPC] (23) Gui Stop ScreenStream SUCCESS
+465584 [RPC] (24) Storage List @/int START
+465655 [RPC] (24) Storage List @/int SUCCESS
+466919 [RPC] (25) Storage Info @/ext START
+466985 [RPC] (25) Storage Info @/ext SUCCESS
+467668 [RPC] (26) Storage List @/ext START
+467817 [RPC] (26) Storage List @/ext SUCCESS
+477435 [RPC] (27) Storage List @/ext/apps START
+477535 [RPC] (27) Storage List @/ext/apps SUCCESS
+493519 [RPC] (28) Storage List @/ext/apps/Tools START
+493656 [RPC] (28) Storage List @/ext/apps/Tools SUCCESS
+505086 [RPC] (29) Storage List @/ext/apps START
+505202 [RPC] (29) Storage List @/ext/apps SUCCESS
+527253 [RPC] (30) Storage List @/ext START
+527407 [RPC] (30) Storage List @/ext SUCCESS
+529820 [RPC] (31) Storage List @/ext/apps_data START
+529907 [RPC] (31) Storage List @/ext/apps_data SUCCESS
+531502 [RPC] (32) Storage List @/ext/apps_data/nrf24scan START
+531576 [RPC] (32) Storage List @/ext/apps_data/nrf24scan SUCCESS
+539956 [RPC] (33) Storage List @/ext/apps_data START
+540017 [RPC] (33) Storage List @/ext/apps_data SUCCESS
+541020 [RPC] (34) Storage List @/ext/apps_data/authenticator START
+541084 [RPC] (34) Storage List @/ext/apps_data/authenticator SUCCESS
+543604 [RPC] (35) Storage List @/ext/apps_data START
+543681 [RPC] (35) Storage List @/ext/apps_data SUCCESS
+544704 [RPC] (36) Storage List @/ext/apps_data/authenticator START
+544771 [RPC] (36) Storage List @/ext/apps_data/authenticator SUCCESS
+546404 [RPC] (37) Storage List @/ext/apps_data START
+546482 [RPC] (37) Storage List @/ext/apps_data SUCCESS
+547420 [RPC] (38) Storage List @/ext START
+547529 [RPC] (38) Storage List @/ext SUCCESS
+555723 [RPC] (39) Storage Remove @/ext/apps START
+557781 [RPC] (39) Storage Remove @/ext/apps SUCCESS
+557786 [RPC] (40) Storage List @/ext START
+557948 [RPC] (40) Storage List @/ext SUCCESS
+564381 [RPC] (41) Storage List @/ext/update START
+564464 [RPC] (41) Storage List @/ext/update SUCCESS
+571487 [UTL] Upload Files @Weeb0 START
+571487 [RPC] (42) Storage MkDir @/ext/update/RM0123-1429 START
+571704 [RPC] (42) Storage MkDir @/ext/update/RM0123-1429 SUCCESS
+571704 [RPC] (43) Storage Write @/ext/update/RM0123-1429/firmware.dfu START
+578521 [RPC] (43) Storage Write @/ext/update/RM0123-1429/firmware.dfu SUCCESS
+578521 [RPC] (44) Storage Write @/ext/update/RM0123-1429/update.fuf START
+578610 [RPC] (44) Storage Write @/ext/update/RM0123-1429/update.fuf SUCCESS
+578610 [RPC] (45) Storage Write @/ext/update/RM0123-1429/radio.bin START
+580170 [RPC] (45) Storage Write @/ext/update/RM0123-1429/radio.bin SUCCESS
+580181 [RPC] (46) Storage Write @/ext/update/RM0123-1429/splash.bin START
+580255 [RPC] (46) Storage Write @/ext/update/RM0123-1429/splash.bin SUCCESS
+580256 [RPC] (47) Storage Write @/ext/update/RM0123-1429/updater.bin START
+581353 [RPC] (47) Storage Write @/ext/update/RM0123-1429/updater.bin SUCCESS
+581353 [RPC] (48) Storage Write @/ext/update/RM0123-1429/resources.tar START
+600391 [UPD] Fetched update information from https://update.flipperzero.one/firmware/directory.json
+600447 [UPD] Fetched update information from https://update.flipperzero.one/qFlipper/directory.json
+633025 [RPC] (48) Storage Write @/ext/update/RM0123-1429/resources.tar SUCCESS
+633025 [UTL] Upload Files @Weeb0 SUCCESS
+633025 [RPC] (49) Storage List @/ext/update START
+633095 [RPC] (49) Storage List @/ext/update SUCCESS
+636040 [RPC] (50) Gui Start ScreenStream START
+636102 [RPC] (50) Gui Start ScreenStream SUCCESS
+641306 [RPC] (51) Storage List @/ext/update START
+641380 [RPC] (51) Storage List @/ext/update SUCCESS
+641403 [RPC] (52) Gui Stop ScreenStream START
+641475 [RPC] (52) Gui Stop ScreenStream SUCCESS
+643084 [RPC] (53) Gui Start ScreenStream START
+643142 [RPC] (53) Gui Start ScreenStream SUCCESS
+645040 [RPC] (54) Gui Send Input START
+645093 [RPC] (54) Gui Send Input SUCCESS
+645185 [RPC] (55) Gui Send Input START
+645238 [RPC] (55) Gui Send Input SUCCESS
+645239 [RPC] (56) Gui Send Input START
+645295 [RPC] (56) Gui Send Input SUCCESS
+645857 [RPC] (57) Gui Send Input START
+645908 [RPC] (57) Gui Send Input SUCCESS
+646007 [RPC] (58) Gui Send Input START
+646073 [RPC] (58) Gui Send Input SUCCESS
+646084 [RPC] (59) Gui Send Input START
+646142 [RPC] (59) Gui Send Input SUCCESS
+647456 [RPC] (60) Gui Send Input START
+647508 [RPC] (60) Gui Send Input SUCCESS
+647588 [RPC] (61) Gui Send Input START
+647640 [RPC] (61) Gui Send Input SUCCESS
+647640 [RPC] (62) Gui Send Input START
+647714 [RPC] (62) Gui Send Input SUCCESS
+647727 [RPC] (63) Gui Send Input START
+647782 [RPC] (63) Gui Send Input SUCCESS
+647789 [RPC] (64) Gui Send Input START
+647840 [RPC] (64) Gui Send Input SUCCESS
+647840 [RPC] (65) Gui Send Input START
+647894 [RPC] (65) Gui Send Input SUCCESS
+647906 [RPC] (66) Gui Send Input START
+647984 [RPC] (66) Gui Send Input SUCCESS
+647997 [RPC] (67) Gui Send Input START
+648056 [RPC] (67) Gui Send Input SUCCESS
+648056 [RPC] (68) Gui Send Input START
+648110 [RPC] (68) Gui Send Input SUCCESS
+648110 [RPC] (69) Gui Send Input START
+648172 [RPC] (69) Gui Send Input SUCCESS
+648183 [RPC] (70) Gui Send Input START
+648239 [RPC] (70) Gui Send Input SUCCESS
+648239 [RPC] (71) Gui Send Input START
+648293 [RPC] (71) Gui Send Input SUCCESS
+648293 [RPC] (72) Gui Send Input START
+648367 [RPC] (72) Gui Send Input SUCCESS
+648375 [RPC] (73) Gui Send Input START
+648427 [RPC] (73) Gui Send Input SUCCESS
+648427 [RPC] (74) Gui Send Input START
+648490 [RPC] (74) Gui Send Input SUCCESS
+648494 [RPC] (75) Gui Send Input START
+648556 [RPC] (75) Gui Send Input SUCCESS
+648556 [RPC] (76) Gui Send Input START
+648608 [RPC] (76) Gui Send Input SUCCESS
+648609 [RPC] (77) Gui Send Input START
+648673 [RPC] (77) Gui Send Input SUCCESS
+648683 [RPC] (78) Gui Send Input START
+648738 [RPC] (78) Gui Send Input SUCCESS
+648738 [RPC] (79) Gui Send Input START
+648790 [RPC] (79) Gui Send Input SUCCESS
+648790 [RPC] (80) Gui Send Input START
+648849 [RPC] (80) Gui Send Input SUCCESS
+648860 [RPC] (81) Gui Send Input START
+648922 [RPC] (81) Gui Send Input SUCCESS
+648923 [RPC] (82) Gui Send Input START
+648985 [RPC] (82) Gui Send Input SUCCESS
+648989 [RPC] (83) Gui Send Input START
+649043 [RPC] (83) Gui Send Input SUCCESS
+649043 [RPC] (84) Gui Send Input START
+649108 [RPC] (84) Gui Send Input SUCCESS
+649109 [RPC] (85) Gui Send Input START
+649160 [RPC] (85) Gui Send Input SUCCESS
+649160 [RPC] (86) Gui Send Input START
+649225 [RPC] (86) Gui Send Input SUCCESS
+649225 [RPC] (87) Gui Send Input START
+649283 [RPC] (87) Gui Send Input SUCCESS
+649289 [RPC] (88) Gui Send Input START
+649345 [RPC] (88) Gui Send Input SUCCESS
+649359 [RPC] (89) Gui Send Input START
+649411 [RPC] (89) Gui Send Input SUCCESS
+649423 [RPC] (90) Gui Send Input START
+649480 [RPC] (90) Gui Send Input SUCCESS
+649502 [RPC] (91) Gui Send Input START
+649556 [RPC] (91) Gui Send Input SUCCESS
+649556 [RPC] (92) Gui Send Input START
+649623 [RPC] (92) Gui Send Input SUCCESS
+649623 [RPC] (93) Gui Send Input START
+649683 [RPC] (93) Gui Send Input SUCCESS
+649689 [RPC] (94) Gui Send Input START
+649753 [RPC] (94) Gui Send Input SUCCESS
+649753 [RPC] (95) Gui Send Input START
+649807 [RPC] (95) Gui Send Input SUCCESS
+649807 [RPC] (96) Gui Send Input START
+649874 [RPC] (96) Gui Send Input SUCCESS
+649886 [RPC] (97) Gui Send Input START
+649940 [RPC] (97) Gui Send Input SUCCESS
+649940 [RPC] (98) Gui Send Input START
+650007 [RPC] (98) Gui Send Input SUCCESS
+650007 [RPC] (99) Gui Send Input START
+650061 [RPC] (99) Gui Send Input SUCCESS
+650061 [RPC] (100) Gui Send Input START
+650125 [RPC] (100) Gui Send Input SUCCESS
+650125 [RPC] (101) Gui Send Input START
+650183 [RPC] (101) Gui Send Input SUCCESS
+650190 [RPC] (102) Gui Send Input START
+650264 [RPC] (102) Gui Send Input SUCCESS
+650276 [RPC] (103) Gui Send Input START
+650339 [RPC] (103) Gui Send Input SUCCESS
+650339 [RPC] (104) Gui Send Input START
+650407 [RPC] (104) Gui Send Input SUCCESS
+650456 [RPC] (105) Gui Send Input START
+650530 [RPC] (105) Gui Send Input SUCCESS
+650560 [RPC] (106) Gui Send Input START
+650622 [RPC] (106) Gui Send Input SUCCESS
+650623 [RPC] (107) Gui Send Input START
+650678 [RPC] (107) Gui Send Input SUCCESS
+651024 [RPC] (108) Gui Send Input START
+651084 [RPC] (108) Gui Send Input SUCCESS
+651123 [RPC] (109) Gui Send Input START
+651182 [RPC] (109) Gui Send Input SUCCESS
+651189 [RPC] (110) Gui Send Input START
+651241 [RPC] (110) Gui Send Input SUCCESS
+652086 [RPC] (111) Gui Send Input START
+652139 [RPC] (111) Gui Send Input SUCCESS
+652208 [RPC] (112) Gui Send Input START
+652260 [RPC] (112) Gui Send Input SUCCESS
+652260 [RPC] (113) Gui Send Input START
+652332 [RPC] (113) Gui Send Input SUCCESS
+655590 [RPC] (114) Gui Send Input START
+655642 [RPC] (114) Gui Send Input SUCCESS
+655728 [RPC] (115) Gui Send Input START
+655784 [RPC] (115) Gui Send Input SUCCESS
+655790 [RPC] (116) Gui Send Input START
+655862 [RPC] (116) Gui Send Input SUCCESS
+656883 [RPC] (117) Gui Send Input START
+656939 [RPC] (117) Gui Send Input SUCCESS
+657040 [RPC] (118) Gui Send Input START
+657094 [RPC] (118) Gui Send Input SUCCESS
+657094 [RPC] (119) Gui Send Input START
+657159 [RPC] (119) Gui Send Input SUCCESS
+659683 [RPC] (120) Gui Send Input START
+659740 [RPC] (120) Gui Send Input SUCCESS
+659809 [RPC] (121) Gui Send Input START
+659861 [RPC] (121) Gui Send Input SUCCESS
+659873 [RPC] (122) Gui Send Input START
+659929 [RPC] (122) Gui Send Input SUCCESS
+660641 [RPC] (123) Gui Send Input START
+660693 [RPC] (123) Gui Send Input SUCCESS
+660786 [RPC] (124) Gui Send Input START
+660839 [RPC] (124) Gui Send Input SUCCESS
+660840 [RPC] (125) Gui Send Input START
+660912 [RPC] (125) Gui Send Input SUCCESS
+662558 [RPC] (126) Gui Send Input START
+662610 [RPC] (126) Gui Send Input SUCCESS
+662689 [RPC] (127) Gui Send Input START
+662743 [RPC] (127) Gui Send Input SUCCESS
+662743 [RPC] (128) Gui Send Input START
+662813 [RPC] (128) Gui Send Input SUCCESS
+663793 [RPC] (129) Gui Send Input START
+663856 [RPC] (129) Gui Send Input SUCCESS
+663940 [RPC] (130) Gui Send Input START
+664007 [RPC] (130) Gui Send Input SUCCESS
+664007 [RPC] (131) Gui Send Input START
+664064 [RPC] (131) Gui Send Input SUCCESS
+665457 [RPC] (132) Gui Send Input START
+665509 [RPC] (132) Gui Send Input SUCCESS
+665560 [RPC] (133) Gui Send Input START
+665614 [RPC] (133) Gui Send Input SUCCESS
+665614 [RPC] (134) Gui Send Input START
+665673 [RPC] (134) Gui Send Input SUCCESS
+665684 [RPC] (135) Gui Send Input START
+665744 [RPC] (135) Gui Send Input SUCCESS
+665744 [RPC] (136) Gui Send Input START
+665806 [RPC] (136) Gui Send Input SUCCESS
+665806 [RPC] (137) Gui Send Input START
+665870 [RPC] (137) Gui Send Input SUCCESS
+666490 [RPC] (138) Gui Send Input START
+666542 [RPC] (138) Gui Send Input SUCCESS
+666623 [RPC] (139) Gui Send Input START
+666683 [RPC] (139) Gui Send Input SUCCESS
+666690 [RPC] (140) Gui Send Input START
+666762 [RPC] (140) Gui Send Input SUCCESS
+667290 [RPC] (141) Gui Send Input START
+667342 [RPC] (141) Gui Send Input SUCCESS
+667409 [RPC] (142) Gui Send Input START
+667461 [RPC] (142) Gui Send Input SUCCESS
+667461 [RPC] (143) Gui Send Input START
+667526 [RPC] (143) Gui Send Input SUCCESS
+668523 [RPC] (144) Gui Send Input START
+668583 [RPC] (144) Gui Send Input SUCCESS
+668658 [RPC] (145) Gui Send Input START
+668710 [RPC] (145) Gui Send Input SUCCESS
+668710 [RPC] (146) Gui Send Input START
+668773 [RPC] (146) Gui Send Input SUCCESS
+669690 [RPC] (147) Gui Send Input START
+669742 [RPC] (147) Gui Send Input SUCCESS
+669798 [RPC] (148) Gui Send Input START
+669856 [RPC] (148) Gui Send Input SUCCESS
+669856 [RPC] (149) Gui Send Input START
+669911 [RPC] (149) Gui Send Input SUCCESS
+671091 [RPC] (150) Gui Send Input START
+671143 [RPC] (150) Gui Send Input SUCCESS
+671209 [RPC] (151) Gui Send Input START
+671261 [RPC] (151) Gui Send Input SUCCESS
+671261 [RPC] (152) Gui Send Input START
+671326 [RPC] (152) Gui Send Input SUCCESS
+671391 [RPC] (153) Gui Send Input START
+671448 [RPC] (153) Gui Send Input SUCCESS
+671507 [RPC] (154) Gui Send Input START
+671563 [RPC] (154) Gui Send Input SUCCESS
+671576 [RPC] (155) Gui Send Input START
+671641 [RPC] (155) Gui Send Input SUCCESS
+671641 [RPC] (156) Gui Send Input START
+671693 [RPC] (156) Gui Send Input SUCCESS
+671711 [RPC] (157) Gui Send Input START
+671773 [RPC] (157) Gui Send Input SUCCESS
+671783 [RPC] (158) Gui Send Input START
+671836 [RPC] (158) Gui Send Input SUCCESS
+672157 [RPC] (159) Gui Send Input START
+672210 [RPC] (159) Gui Send Input SUCCESS
+672311 [RPC] (160) Gui Send Input START
+672374 [RPC] (160) Gui Send Input SUCCESS
+672384 [RPC] (161) Gui Send Input START
+672439 [RPC] (161) Gui Send Input SUCCESS
+672993 [RPC] (162) Gui Send Input START
+673057 [RPC] (162) Gui Send Input SUCCESS
+673124 [RPC] (163) Gui Send Input START
+673184 [RPC] (163) Gui Send Input SUCCESS
+673190 [RPC] (164) Gui Send Input START
+673245 [RPC] (164) Gui Send Input SUCCESS
+674408 [RPC] (165) Gui Send Input START
+674461 [RPC] (165) Gui Send Input SUCCESS
+674516 [RPC] (166) Gui Send Input START
+674583 [RPC] (166) Gui Send Input SUCCESS
+674590 [RPC] (167) Gui Send Input START
+674644 [RPC] (167) Gui Send Input SUCCESS
+676491 [RPC] (168) Gui Send Input START
+676543 [RPC] (168) Gui Send Input SUCCESS
+676623 [RPC] (169) Gui Send Input START
+676683 [RPC] (169) Gui Send Input SUCCESS
+676690 [RPC] (170) Gui Send Input START
+676743 [RPC] (170) Gui Send Input SUCCESS
+677207 [RPC] Serial connection was lost.
+677207 [RPC] Stopping RPC session...
+677207 [RPC] Attempting to unload protobuf plugin...
+677207 [RPC] Unloaded protobuf plugin.
+677207 [RPC] RPC session stopped successfully.
+677274 [REG] Device disconnected: VID_0x483:PID_0x5740
+677274 [BKD] Last device was disconnected
+841479 [REG] Detected new device: VID_0x483:PID_0x5740
+841484 [DBG] Trying serial port flip_Humakr at /dev/ttyACM0
+841484 [DBG] Using  serial port flip_Humakr at /dev/ttyACM0
+841484 [RPC] Starting RPC session...
+841615 [RPC] RPC session started successfully.
+841616 [RPC] (1) System Protobuf Version START
+841679 [DBG] Detected protobuf version: 0.14
+841679 [RPC] (1) System Protobuf Version SUCCESS
+841689 [RPC] (2) Property Get START
+841846 [RPC] (2) Property Get SUCCESS
+841846 [RPC] (3) Storage Info @/ext START
+841898 [RPC] (3) Storage Info @/ext SUCCESS
+841899 [RPC] (4) Storage Stat @/ext/Manifest START
+841962 [RPC] (4) Storage Stat @/ext/Manifest SUCCESS
+841984 [RPC] (5) System Get DateTime START
+842045 [DBG] Flipper time skew is -4128 milliseconds
+842045 [RPC] (5) System Get DateTime SUCCESS
+842046 [RPC] (6) System Set DateTime START
+842116 [RPC] (6) System Set DateTime SUCCESS
+842117 [RPC] Stopping RPC session...
+842118 [RPC] Attempting to unload protobuf plugin...
+842118 [RPC] Unloaded protobuf plugin.
+842118 [RPC] RPC session stopped successfully.
+842118 [REG] Registering the device
+842118 [DEV] Version: 0.75.1 commit: 9cad37f9d radio: 1.13.3
+842118 [BKD] Current device changed to "Weeb0"
+842234 [RPC] Starting RPC session...
+842383 [RPC] RPC session started successfully.
+842384 [RPC] (1) Gui Start ScreenStream START
+842446 [RPC] (1) Gui Start ScreenStream SUCCESS
+903633 [RPC] Serial connection was lost.
+903633 [RPC] Stopping RPC session...
+903633 [RPC] Attempting to unload protobuf plugin...
+903633 [RPC] Unloaded protobuf plugin.
+903633 [RPC] RPC session stopped successfully.
+903680 [REG] Device disconnected: VID_0x483:PID_0x5740
+903680 [BKD] Last device was disconnected
+905582 [REG] Detected new device: VID_0x483:PID_0x5740
+905607 [DBG] Trying serial port flip_Weeb0 at /dev/ttyACM0
+905607 [DBG] Using  serial port flip_Weeb0 at /dev/ttyACM0
+905607 [RPC] Starting RPC session...
+905730 [RPC] RPC session started successfully.
+905730 [RPC] (1) System Protobuf Version START
+905790 [DBG] Detected protobuf version: 0.14
+905791 [RPC] (1) System Protobuf Version SUCCESS
+905797 [RPC] (2) Property Get START
+905913 [RPC] (2) Property Get SUCCESS
+905913 [RPC] (3) Storage Info @/ext START
+905965 [RPC] (3) Storage Info @/ext SUCCESS
+905965 [RPC] (4) Storage Stat @/ext/Manifest START
+906036 [RPC] (4) Storage Stat @/ext/Manifest SUCCESS
+906044 [RPC] (5) System Get DateTime START
+906097 [DBG] Flipper time skew is -1180 milliseconds
+906097 [RPC] (5) System Get DateTime SUCCESS
+906097 [RPC] (6) System Set DateTime START
+906162 [RPC] (6) System Set DateTime SUCCESS
+906181 [RPC] Stopping RPC session...
+906182 [RPC] Attempting to unload protobuf plugin...
+906182 [RPC] Unloaded protobuf plugin.
+906182 [RPC] RPC session stopped successfully.
+906183 [REG] Registering the device
+906183 [DEV] Version: 0.75.1 commit: 9cad37f9d radio: 1.13.3
+906183 [BKD] Current device changed to "Weeb0"
+906314 [RPC] Starting RPC session...
+906448 [RPC] RPC session started successfully.
+906448 [RPC] (1) Gui Start ScreenStream START
+906514 [RPC] (1) Gui Start ScreenStream SUCCESS
+1168156 [RPC] (2) Storage Info @/ext START
+1168227 [RPC] (2) Storage Info @/ext SUCCESS
+1168238 [RPC] (3) Gui Stop ScreenStream START
+1168329 [RPC] (3) Gui Stop ScreenStream SUCCESS
+1169081 [RPC] (4) Storage List @/ext START
+1169204 [RPC] (4) Storage List @/ext SUCCESS
+1179357 [RPC] (5) Storage List @/ext/apps_data START
+1179435 [RPC] (5) Storage List @/ext/apps_data SUCCESS
+1181256 [RPC] (6) Storage List @/ext/apps_data/barcode_data START
+1181328 [RPC] (6) Storage List @/ext/apps_data/barcode_data SUCCESS
+1182590 [RPC] (7) Storage List @/ext/apps_data START
+1182667 [RPC] (7) Storage List @/ext/apps_data SUCCESS
+1183556 [RPC] (8) Storage List @/ext/apps_data/authenticator START
+1183635 [RPC] (8) Storage List @/ext/apps_data/authenticator SUCCESS
+1184490 [RPC] (9) Storage List @/ext/apps_data START
+1184566 [RPC] (9) Storage List @/ext/apps_data SUCCESS
+1184990 [RPC] (10) Storage List @/ext START
+1185108 [RPC] (10) Storage List @/ext SUCCESS
+1194826 [RPC] (11) Storage List @/ext/dolphin START
+1195010 [RPC] (11) Storage List @/ext/dolphin SUCCESS
+1199739 [UPD] Fetched update information from https://update.flipperzero.one/qFlipper/directory.json
+1199756 [UPD] Fetched update information from https://update.flipperzero.one/firmware/directory.json
+1222190 [RPC] (12) Storage List @/ext START
+1222327 [RPC] (12) Storage List @/ext SUCCESS
+1225492 [RPC] (13) Storage List @/ext/ibtnfuzzer START
+1225567 [RPC] (13) Storage List @/ext/ibtnfuzzer SUCCESS
+1237042 [RPC] (14) Storage List @/ext START
+1237176 [RPC] (14) Storage List @/ext SUCCESS
+1240792 [RPC] (15) Storage List @/ext/infrared START
+1240899 [RPC] (15) Storage List @/ext/infrared SUCCESS
+1245593 [RPC] (16) Storage List @/ext/infrared/Pronto_IR START
+1245690 [RPC] (16) Storage List @/ext/infrared/Pronto_IR SUCCESS
+1249208 [RPC] (17) Storage List @/ext/infrared START
+1249321 [RPC] (17) Storage List @/ext/infrared SUCCESS
+1253593 [RPC] (18) Storage List @/ext/infrared/IRDB START
+1253740 [RPC] (18) Storage List @/ext/infrared/IRDB SUCCESS
+1256442 [RPC] (19) Storage List @/ext/infrared START
+1256525 [RPC] (19) Storage List @/ext/infrared SUCCESS
+1259225 [RPC] (20) Storage List @/ext/infrared/ir_remote START
+1259304 [RPC] (20) Storage List @/ext/infrared/ir_remote SUCCESS
+1260793 [RPC] (21) Storage List @/ext/infrared START
+1260899 [RPC] (21) Storage List @/ext/infrared SUCCESS
+1262361 [RPC] (22) Storage List @/ext/infrared/ir_remote START
+1262427 [RPC] (22) Storage List @/ext/infrared/ir_remote SUCCESS
+1263464 [RPC] (23) Storage List @/ext/infrared START
+1263576 [RPC] (23) Storage List @/ext/infrared SUCCESS
+1266093 [RPC] (24) Storage List @/ext/infrared/IRDB START
+1266268 [RPC] (24) Storage List @/ext/infrared/IRDB SUCCESS
+1278793 [RPC] (25) Storage List @/ext/infrared/IRDB/Miscellaneous START
+1278976 [RPC] (25) Storage List @/ext/infrared/IRDB/Miscellaneous SUCCESS
+1286644 [RPC] (26) Storage List @/ext/infrared/IRDB/Miscellaneous/Bluetooth_Amplifier START
+1286739 [RPC] (26) Storage List @/ext/infrared/IRDB/Miscellaneous/Bluetooth_Amplifier SUCCESS
+1289225 [RPC] (27) Storage List @/ext/infrared/IRDB/Miscellaneous START
+1289414 [RPC] (27) Storage List @/ext/infrared/IRDB/Miscellaneous SUCCESS
+1290760 [RPC] (28) Storage List @/ext/infrared/IRDB/Miscellaneous/Amibot START
+1290849 [RPC] (28) Storage List @/ext/infrared/IRDB/Miscellaneous/Amibot SUCCESS
+1293792 [RPC] (29) Storage List @/ext/infrared/IRDB/Miscellaneous START
+1293966 [RPC] (29) Storage List @/ext/infrared/IRDB/Miscellaneous SUCCESS
+1297060 [RPC] (30) Storage List @/ext/infrared/IRDB/Miscellaneous/Bluetooth_Amplifier START
+1297156 [RPC] (30) Storage List @/ext/infrared/IRDB/Miscellaneous/Bluetooth_Amplifier SUCCESS
+1300744 [RPC] (31) Storage List @/ext/infrared/IRDB/Miscellaneous START
+1300944 [RPC] (31) Storage List @/ext/infrared/IRDB/Miscellaneous SUCCESS
+1324545 [RPC] (32) Storage List @/ext/infrared/IRDB START
+1324683 [RPC] (32) Storage List @/ext/infrared/IRDB SUCCESS
+1327245 [RPC] (33) Storage List @/ext/infrared START
+1327328 [RPC] (33) Storage List @/ext/infrared SUCCESS
+1328414 [RPC] (34) Storage List @/ext START
+1328580 [RPC] (34) Storage List @/ext SUCCESS
+1331510 [RPC] (35) Storage List @/ext/tama_p1 START
+1331584 [RPC] (35) Storage List @/ext/tama_p1 SUCCESS
+1332694 [RPC] (36) Storage List @/ext START
+1332848 [RPC] (36) Storage List @/ext SUCCESS
+1360366 [RPC] (37) Storage List @/ext/subghz START
+1360530 [RPC] (37) Storage List @/ext/subghz SUCCESS
+1382696 [RPC] (38) Storage List @/ext/subghz/Vehicles START
+1382826 [RPC] (38) Storage List @/ext/subghz/Vehicles SUCCESS
+1385112 [RPC] (39) Storage List @/ext/subghz/Vehicles/TPMS-Flipper START
+1385180 [RPC] (39) Storage List @/ext/subghz/Vehicles/TPMS-Flipper SUCCESS
+1386495 [RPC] (40) Storage List @/ext/subghz/Vehicles START
+1386582 [RPC] (40) Storage List @/ext/subghz/Vehicles SUCCESS
+1387929 [RPC] (41) Storage List @/ext/subghz/Vehicles/Lamborghini_Huracan START
+1388009 [RPC] (41) Storage List @/ext/subghz/Vehicles/Lamborghini_Huracan SUCCESS
+1390749 [RPC] (42) Storage List @/ext/subghz/Vehicles START
+1390834 [RPC] (42) Storage List @/ext/subghz/Vehicles SUCCESS
+1392896 [RPC] (43) Storage List @/ext/subghz START
+1393095 [RPC] (43) Storage List @/ext/subghz SUCCESS
+1396932 [RPC] (44) Storage List @/ext/subghz/Jamming START
+1397039 [RPC] (44) Storage List @/ext/subghz/Jamming SUCCESS
+1402564 [RPC] (45) Storage List @/ext/subghz START
+1402718 [RPC] (45) Storage List @/ext/subghz SUCCESS
+1431591 [RPC] (46) Storage List @/ext/subghz/Doorbells START
+1431770 [RPC] (46) Storage List @/ext/subghz/Doorbells SUCCESS
+1449715 [RPC] (47) Storage List @/ext/subghz START
+1449903 [RPC] (47) Storage List @/ext/subghz SUCCESS
+1466549 [RPC] (48) Storage List @/ext/subghz/Gas_Sign START
+1466685 [RPC] (48) Storage List @/ext/subghz/Gas_Sign SUCCESS
+1475987 [RPC] (49) Storage List @/ext/subghz/Gas_Sign/HackRF START
+1476091 [RPC] (49) Storage List @/ext/subghz/Gas_Sign/HackRF SUCCESS
+1481699 [RPC] (50) Storage List @/ext/subghz/Gas_Sign START
+1481835 [RPC] (50) Storage List @/ext/subghz/Gas_Sign SUCCESS
+1483787 [RPC] (51) Storage List @/ext/subghz/Gas_Sign/Gas_Alt_Files START
+1483897 [RPC] (51) Storage List @/ext/subghz/Gas_Sign/Gas_Alt_Files SUCCESS
+1500316 [RPC] (52) Storage List @/ext/subghz/Gas_Sign START
+1500447 [RPC] (52) Storage List @/ext/subghz/Gas_Sign SUCCESS
+1503016 [RPC] (53) Storage List @/ext/subghz START
+1503167 [RPC] (53) Storage List @/ext/subghz SUCCESS
+1505166 [RPC] (54) Storage List @/ext START
+1505287 [RPC] (54) Storage List @/ext SUCCESS
+1507351 [RPC] (55) Storage Info @/ext START
+1507428 [RPC] (55) Storage Info @/ext SUCCESS
+1511050 [APP] qFlipper exited
+1511116 [default] "There are still \"1\" items in the process of being created at engine destruction."
