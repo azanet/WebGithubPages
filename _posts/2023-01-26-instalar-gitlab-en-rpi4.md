@@ -10,10 +10,12 @@ header:
 categories:
   - RaspberryPi
   - Git
-  - Storage
+  - GitLab
 tags:  
-  - usb
+  - git
+  - gitlab
   - storage
+  
 ---
 <span align="center" style="color:red;">
 ![banner_PostHDD_Rpi4.png](/assets/images/instalar-gitlab-en-rpi4/banner_PostGitLab_Rpi4.png)
