@@ -1,10 +1,4 @@
 ---
-title: Agregar HDD vía USB a RaspberryPi 4
-updated: 2023-01-24 23:48:20Z
-created: 2023-01-23 18:15:36Z
----
-
----
 layout: single
 title: Agregando HDD vía USB a Raspberry Pi 4
 excerpt: "Se detalla como agregar un HDD a la Raspberry Pi 4 para utilizarlo como almacenamiento en aplicaciones que se instalarán posteriormente como GitLab, OwnCloud, etc... y evitar hacer uso de las nubes de terceros."
