@@ -11,11 +11,10 @@ categories:
   - RaspberryPi
   - Git
   - GitLab
-tags:  
+tags:
   - git
   - gitlab
   - storage
-  
 ---
 <span align="center" style="color:red;">
 ![banner_PostHDD_Rpi4.png](/assets/images/instalar-gitlab-en-rpi4/banner_PostGitLab_Rpi4.png)
@@ -314,7 +313,7 @@ Se mostrará un formulario donde nos solicitarán varios datos para establecer l
 ![interior_repo.png](/assets/images/instalar-gitlab-en-rpi4/interior_repo.png)
 <br>
 
-- Con esto concluimos la instalación de nuestro **servidor de Git**.  
+- Con esto concluimos la instalación de nuestro **servidor de Git**.
 
 <br><br><br>
 
