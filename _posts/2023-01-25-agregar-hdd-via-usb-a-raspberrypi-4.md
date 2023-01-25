@@ -20,7 +20,9 @@ tags:
 </span>
 <br><br>
 
-En esta entrada, se detalla cómo agregar y configurar un HDD a la Raspberry Pi 4.<br>
+En esta entrada, se detalla cómo agregar y configurar un HDD a la Raspberry Pi 4.
+<br>
+
 El motivo de expandir la memoria del dispositivo, será el utilizarlo como almacenamiento en aplicaciones que se instalarán posteriormente como GitLab y OwnCloud para evitar en lo posible hacer uso de las nubes de terceros.
 <br>
 
@@ -28,9 +30,7 @@ El motivo de expandir la memoria del dispositivo, será el utilizarlo como almac
 ![1ae69a795627de61667698b9705c89d5.png](/assets/images/agregar-hdd-via-usb-a-raspberrypi-4/1ae69a795627de61667698b9705c89d5.png)
 </span>
 
-
 <br>
-
 
 ### Materiales Empleados:
 - Raspberry Pi 4 8Gb.
@@ -198,7 +198,7 @@ Para agregar la partición al fichero "**fstab**":
 
 <br>
 
-  - Para **obtener los UUID** de las particiones, ejecutamos el comando:<br>
+- Para **obtener los UUID** de las particiones, ejecutamos el comando:<br>
  ```ls -l /dev/disk/by-uuid```<br>
 <span align="center" style="color:red;">
 ![5460ebbc24b1fa039acd86aeb58f34bd.png](/assets/images/agregar-hdd-via-usb-a-raspberrypi-4/5460ebbc24b1fa039acd86aeb58f34bd.png)
@@ -210,10 +210,11 @@ Para agregar la partición al fichero "**fstab**":
  <br>
  
  <br>
+ 
  ---
 **La línea a agregar en el fichero "fstab" se compone de**:
  
-```<file system> <dir> <type> <options> <dump> <pass>```<br><br>
+```<file system> <dir> <type> <options> <dump> <pass>```<br>
  
 **file system**: La ID correspondiente a la partición/disco.<br>
 **dir**: Ruta donde queremos que se monte la partición.<br>
@@ -235,7 +236,7 @@ Abrimos el fichero, Pegamos la línea, Guardamos y Cerramos:<br>
 <span align="center" style="color:red;">
 ![1010025be89057873784d37ef8eaa7b8.png](/assets/images/agregar-hdd-via-usb-a-raspberrypi-4/1010025be89057873784d37ef8eaa7b8.png)
 </span>
-<br>
+<br><br>
 
 - Probamos a montar todas las unidades contenidas en el "fstab":<br>
 ```sudo mount -a```<br>
