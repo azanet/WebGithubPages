@@ -47,7 +47,7 @@ GitLab ofrece un portal Web muy parecido al de Github que nos ayuda a gestionar 
 
 
 Para realizar esta instalación se han utilizado las instrucciones de la página oficial de Gitlab para la RaspberryPi:
-- <b>https://about.gitlab.com/install/#raspberry-pi-os</b>.
+- <a href="https://about.gitlab.com/install/#raspberry-pi-os" target="_blank">https://about.gitlab.com/install/#raspberry-pi-os</a><b></b>.
 <br><br><br><br>
 
 # 2. Instalar GitLab
