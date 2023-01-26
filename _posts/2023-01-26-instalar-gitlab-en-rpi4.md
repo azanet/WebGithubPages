@@ -88,9 +88,7 @@ Para comenzar la instalación de GitLab en la RaspberryPi 4:<br>
 <br><br><br><br>
 
 # 3. Configurar GitLab
-Para configurar GitLab, debemos editar su correspondiente fichero de configuración que se encuentra en la ruta "<b>/etc/gitlab/gitlab.rb</b>", en este, podemos configurar la URL externa, certificados, etc...
-
-<br>
+Para configurar GitLab, debemos editar su correspondiente fichero de configuración que se encuentra en la ruta "<b>/etc/gitlab/gitlab.rb</b>", en este, podemos configurar la URL externa, certificados, etc...<br>
 
 Para editar el fichero de configuración de GitLab ejecutamos:
 ```
