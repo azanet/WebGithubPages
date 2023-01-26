@@ -37,7 +37,7 @@ El motivo de expandir la memoria del dispositivo, será el utilizarlo como almac
 - Disco HDD 2.5'' SATA 1TB.
 - Adaptador SATA a USB3.0.
 - **El puerto USB3.0 de la Raspberry disponible**.
-
+- Diseño 3D de la Caja para Raspberry Pi (By "Chordless"): "https://www.thingiverse.com/thing:4399405"
 <br><br><br><br>
 
 
