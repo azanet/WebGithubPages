@@ -275,26 +275,26 @@ Ya podemos comenzar a trabajar con los repositorios de GitLab en nuestro disposi
 
 
 # 6. Crear Repositorio en GitLab
-
-Accedemos al "<b>Página principal del Usuario</b>", y pulsamos el botón "<b>New Project</b>"
+Para crear un nuestro primer repositorio en GitLab:
+-  Accedemos al "<b>Página principal del Usuario</b>", y pulsamos el botón "<b>New Project</b>"
 ![newProject.png](/assets/images/instalar-gitlab-en-rpi4/newProject.png)
+
 <br>
 
- - GitLab nos ofrece diferentes opciones para crear un nuevo repositorio:
-   - Crear proyecto en blanco
-   - Crear desde una plantilla
-   - Importar proyecto
+- GitLab nos ofrece diferentes opciones para crear un nuevo repositorio:
+  - Crear proyecto en blanco
+  - Crear desde una plantilla
+  - Importar proyecto
+   
 <br>
- - Vamos a crear un proyecto en blanco, por lo que pulsamos en "**Create blank project**"
 
-Se mostrará un formulario donde nos solicitarán varios datos para establecer la información del repositorio y el tipo de visibilidad de este (público, privado, etc..).
+- Vamos a crear un **proyecto en blanco**, por lo que pulsamos en "**Create blank project**".
+*Se mostrará un formulario donde nos solicitarán varios datos para establecer la información del repositorio y el tipo de visibilidad de este (público, privado, etc..)*
 ![mi_test_repo.png](/assets/images/instalar-gitlab-en-rpi4/mi_test_repo.png)
 
 <br>
 
- - Al pulsar en "**Create project**" la herramienta crea el proyecto y nos informa de una serie de instrucciones.
-
-
+- Al pulsar en "**Create project**" la herramienta crea el proyecto y nos informa de una serie de instrucciones.
 ![repo_created.png](/assets/images/instalar-gitlab-en-rpi4/repo_created.png)
 
 <br>
@@ -302,7 +302,6 @@ Se mostrará un formulario donde nos solicitarán varios datos para establecer l
 
 - Para probar que todo ha ido bien podemos abrir un terminal e intentar hacer un clone del proyecto, bien por HTTP o SSH.
 - Podemos encontrar el comando para copiar en el propio repositorio clicando en el botón "**Clone**"
-
 ![clone_git.png](/assets/images/instalar-gitlab-en-rpi4/clone_git.png)
 
 <br>
@@ -316,6 +315,7 @@ Se mostrará un formulario donde nos solicitarán varios datos para establecer l
 <br>
 
 - Si todo ha ido bien, encontraremos la carpeta del repositorio clonada en nuestro dispositivo.
+- 
 ![interior_repo.png](/assets/images/instalar-gitlab-en-rpi4/interior_repo.png)
 
 <br>
