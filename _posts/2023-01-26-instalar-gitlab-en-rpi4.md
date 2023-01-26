@@ -22,8 +22,9 @@ tags:
 <br><br>
 
 En esta entrada, se procede a instalar nuestro propio servidor Git con GitLab en una Raspberry Pi 4 a la que anteriormente se le agregó un HDD de 1Tb que sería destinado para GitLab.
-<br> 
-La intención es prescindir en la mayor parte de lo posible de servicios de terceros, y tener un mayor control de la seguridad de mi información.
+<br>
+
+La intención es prescindir de servicios de terceros en la mayor parte de lo posible y poder controlar el acceso a dicha información, ya que la unica forma de acceder a esta, sería estando en la red interna, o a través de la <a href="https://azanet.github.io/instalando-wireguard-+-duckdns-en-raspberrypi-3/" target="_blank">VPN que fue instalada en una entrada anterior</a>.
 
 <br><br>
 
