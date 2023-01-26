@@ -24,18 +24,18 @@ tags:
 En esta entrada, se procede a instalar nuestro propio servidor Git con GitLab en una Raspberry Pi 4 a la que anteriormente se le agregó un HDD de 1Tb que sería destinado para GitLab.
 <br>
 
-La intención es prescindir de servicios de terceros en la mayor parte de lo posible y poder controlar el acceso a dicha información, ya que la unica forma de acceder a esta, sería estando en la red interna, o a través de la <a href="https://azanet.github.io/instalando-wireguard-+-duckdns-en-raspberrypi-3/" target="_blank">VPN que fue instalada en una entrada anterior</a>.
+La intención es prescindir de servicios de terceros en la mayor parte de lo posible y poder controlar el acceso a dicha información, ya que la unica forma de acceder a esta, sería estando en la red interna o a través de la <a href="https://azanet.github.io/instalando-wireguard-+-duckdns-en-raspberrypi-3/" target="_blank">VPN que fue instalada en una entrada anterior</a>.
 
 <br><br>
 
 # Índice
       
- 1. Introducción
- 2. Instalar GitLab
- 3. Configurar GitLab
- 4. Crear Usuario en GitLab
- 5. Generar e Importar Claves SSH en GitLab
- 6. Crear Repositorio en GitLab
+ [1. Introducción](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#1-introducci%C3%B3n)
+ [2. Instalar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#2-instalar-gitlab)
+ [3. Configurar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#3-configurar-gitlab)
+ [4. Crear Usuario en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#4-crear-usuario-en-gitlab)
+ [5. Generar e Importar Claves SSH en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#5-generar-e-importar-claves-ssh-en-gitlab)
+ [6. Crear Repositorio en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#6-crear-repositorio-en-gitlab)
 
 <br><br><br>
 
@@ -46,6 +46,7 @@ GitLab ofrece un portal Web muy parecido al de Github que nos ayuda a gestionar 
 
 ![gitlab_principal.png](/assets/images/instalar-gitlab-en-rpi4/gitlab_principal.png)
 
+<br>
 
 Para realizar esta instalación se han utilizado las instrucciones de la página oficial de Gitlab para la RaspberryPi:
 - <a href="https://about.gitlab.com/install/#raspberry-pi-os" target="_blank">https://about.gitlab.com/install/#raspberry-pi-os</a><b></b>.
@@ -53,8 +54,7 @@ Para realizar esta instalación se han utilizado las instrucciones de la página
 
 # 2. Instalar GitLab
 
-Accediendo al enlace anterior, podremos ver las instrucciones que aquí se muestran para la instalación de la GitLab en la RaspberryPi 4.<br>
-
+Para comenzar la instalación de GitLab en la RaspberryPi 4:<br>
 - Iniciamos sesión en Raspberry, ya sea por SSH, VNC, RDP o directamente desde el dispositivo.
 ![ssh_rpi.png](/assets/images/instalar-gitlab-en-rpi4/ssh_rpi.png)
 
@@ -83,37 +83,43 @@ Accediendo al enlace anterior, podremos ver las instrucciones que aquí se muest
 
 <br>
 
-<b>Toca esperar pacientemente a que se instale</b>, Mientras nos bebemos una cafetera...<br>
-<br><br><br>
+<b>Toca esperar pacientemente a que se instale</b>, *Mientras nos bebemos una cafetera...*
+
+<br><br><br><br>
 
 # 3. Configurar GitLab
 Para configurar GitLab, debemos editar su correspondiente fichero de configuración que se encuentra en la ruta "<b>/etc/gitlab/gitlab.rb</b>", en este, podemos configurar la URL externa, certificados, etc...
+
 <br>
 
-Para editar el fichero de configuración de GitLab ejecutamos:<br>
+Para editar el fichero de configuración de GitLab ejecutamos:
 ```
   sudo nano /etc/gitlab/gitlab.rb
 ```
 
 <br>
 
-### Configurar Acceso HTTP
+## 3.1. Configurar Acceso HTTP
+
 Procedemos a establecer la IP o Dominio y Puerto por el que accederemos a GitLab.
 - Buscamos la linea que comienza con "<b>external_url</b>".
-- En mi caso, como el servicio solo quiero que sea visible dentro de mi red, establecí como URL la "<b>IP Privada de la   - Raspberry</b>"  y el puerto "<b>8888</b>".
+- En mi caso, como el servicio solo quiero que sea visible dentro de mi red, establezco como URL la "<b>IP Privada de la Raspberry</b>" y el puerto "<b>8888</b>".
 - Por lo tanto el valor de  mi "<b>external_url</b>" sería "<b>http://192.168.1.10:8888</b>. "
 ![external_url.png](/assets/images/instalar-gitlab-en-rpi4/external_url.png)
 
-<br>
-
-### Configurar Acceso HTTPS
-- En el caso que ya tengamos certificados, podemos establecer los certificados SSL.
-Y en el caso de querer guardar los repositorios en una unidad montada, también podemos establecerlo como se muestra en la siguiente imagen:
-*(Sustituir los valores por los que sean adecuados para ti)*
-![ec71476a156f69e8b65b5b22adb49dda.png](/assets/images/instalar-gitlab-en-rpi4/ec71476a156f69e8b65b5b22adb49dda.png)
 <br><br>
 
-### Configurar Ruta de Almacenamiento de Repositorios
+## 3.2. Configurar Acceso HTTPS
+En el caso que ya tengamos certificados SSL, procedemos a establecer la IP o Dominio, Puerto y los certificados SSL que se utilizarán para acceder a GitLab: 
+- En el archivo "**/etc/gitlab/gitlab.rb**" localizamos la linea que comienza con "<b>external_url</b>" agregamos las lineas de 
+- En mi caso, como el servicio solo quiero que sea visible dentro de mi red, establezco como URL la "<b>IP Privada de la Raspberry</b>" y el puerto "<b>8888</b>" pero esta vez empleando "**HTTPS**".
+- Por lo tanto el valor de  mi "<b>external_url</b>" es "<b>https://192.168.1.10:8888</b>".
+*(Sustituir los valores por los que sean adecuados para tu caso)*
+![ec71476a156f69e8b65b5b22adb49dda.png](/assets/images/instalar-gitlab-en-rpi4/ec71476a156f69e8b65b5b22adb49dda.png)
+
+<br><br>
+
+## 3.3 Configurar Ruta de Almacenamiento de Repositorios
 - Para configurar una Ruta "customizada" para almacenar los repositorios, incluir estas líneas en el archivo cambiando el valor de "**path**" por la Ruta que corresponda.
 ```
 git_data_dirs({
