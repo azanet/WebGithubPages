@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Instalar GitLab en Rpi4
+title: Instalar GitLab en Raspberry Pi 4
 excerpt: "Se procede a instalar nuestro propio servidor Git con GitLab en una Raspberry Pi 4"
 date: 2023-01-26
 classes: wide
@@ -17,7 +17,7 @@ tags:
   - storage
 ---
 <span align="center" style="color:red;">
-![banner_PostHDD_Rpi4.png](/assets/images/instalar-gitlab-en-rpi4/banner_PostGitLab_Rpi4.png)
+![banner_PostGitLab_Rpi4.png](/assets/images/instalar-gitlab-en-rpi4/banner_PostGitLab_Rpi4.png)
 </span>
 <br><br>
 
