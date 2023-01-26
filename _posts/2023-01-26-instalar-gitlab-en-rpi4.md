@@ -56,39 +56,44 @@ Accediendo al enlace anterior, podremos ver las instrucciones que aquí se muest
 
 - Iniciamos sesión en Raspberry, ya sea por SSH, VNC, RDP o directamente desde el dispositivo.
 ![ssh_rpi.png](/assets/images/instalar-gitlab-en-rpi4/ssh_rpi.png)
-  <br>
+
+<br>
  
-  - Instalamos las dependencias necesarias, abrimos un terminal en la Raspberry y ejecutamos:
+- Instalamos las dependencias necesarias, abrimos un terminal en la Raspberry y ejecutamos:<br>
 ```
   sudo apt-get install curl openssh-server ca-certificates apt-transport-https perl
 
   curl https://packages.gitlab.com/gpg.key | sudo tee /etc/apt/trusted.gpg.d/gitlab.asc
 ```
+
 <br>
 
-  - Agregamos el paquete de GitLab a los repositorios e instalamos el paquete.
+- Agregamos el paquete de GitLab a los repositorios e instalamos el paquete.
 ```
   sudo curl -sS https://packages.gitlab.com/install/repositories/gitlab/raspberry-pi2/script.deb.sh | sudo bash
 ```
+
 <br>
 
-  - Establecemos la URL por la que queramos y que sea accesible o por la IP y procedemos a instalar.
+- Establecemos la URL por la que queramos y que sea accesible o por la IP y procedemos a instalar.
 ```
   sudo EXTERNAL_URL="https://192.168.1.10" apt-get install gitlab-ce
 ```
+
 <br>
 
-<b>Toca esperar pacientemente a que se instale</b>, Mientras nos bebemos una cafetera...
+<b>Toca esperar pacientemente a que se instale</b>, Mientras nos bebemos una cafetera...<br>
 <br><br><br>
 
 # 3. Configurar GitLab
 Para configurar GitLab, debemos editar su correspondiente fichero de configuración que se encuentra en la ruta "<b>/etc/gitlab/gitlab.rb</b>", en este, podemos configurar la URL externa, certificados, etc...
 <br>
 
-Para editar el fichero de configuración de GitLab ejecutamos:
+Para editar el fichero de configuración de GitLab ejecutamos:<br>
 ```
   sudo nano /etc/gitlab/gitlab.rb
 ```
+
 <br>
 
 ### Configurar Acceso HTTP
