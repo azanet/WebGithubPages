@@ -110,8 +110,11 @@ Procedemos a establecer la IP o Dominio y Puerto por el que accederemos a GitLab
 ## 3.2. Configurar Acceso HTTPS
 En el caso que ya tengamos certificados SSL, procedemos a establecer la IP o Dominio, Puerto y los certificados SSL que se utilizarán para acceder a GitLab: 
 - En el archivo "**/etc/gitlab/gitlab.rb**" localizamos la linea que comienza con "<b>external_url</b>"
+
 - En mi caso, como el servicio solo quiero que sea visible dentro de mi red, establezco como URL la "<b>IP Privada de la Raspberry</b>" y el puerto "<b>8888</b>" pero esta vez empleando "**HTTPS**".
+
 - Por lo tanto el valor de  mi "<b>external_url</b>" es "<b>https://192.168.1.10:8888</b>".
+
 - Para configurarle los certificados SSL, agregamos abajo de "external_url" las lineas que se adjuntan a continuación.<br>
 *Establece la Ruta del certificado que corresponda en tu caso.*
 ```
