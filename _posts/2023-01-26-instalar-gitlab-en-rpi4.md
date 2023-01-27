@@ -33,8 +33,13 @@ La intención es prescindir de servicios de terceros en la mayor parte de lo pos
  1. [Introducción](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#1-introducci%C3%B3n)
  2. [Instalar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#2-instalar-gitlab)
  3. [Configurar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#3-configurar-gitlab)
+  3.1. [Configurar Acceso HTTP](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#31-configurar-acceso-http)
+  3.2. [Configurar Acceso HTTPS](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#32-configurar-acceso-https)
+  3.3 [Configurar Ruta de Almacenamiento de Repositorios](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#33-configurar-ruta-de-almacenamiento-de-repositorios)
  4. [Crear Usuario en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#4-crear-usuario-en-gitlab)
  5. [Generar e Importar Claves SSH en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#5-generar-e-importar-claves-ssh-en-gitlab)
+  5.1. [Crear clave SSH en Linux](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#51-crear-clave-ssh-en-linux)
+  5.2. [Agregar la Clave SSH a GitLab]()
  6. [Crear Repositorio en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#6-crear-repositorio-en-gitlab)
 
 <br><br><br>
@@ -248,7 +253,7 @@ Para <b>generar una clave SSH</b>:
 
 <br><br>
 
-## 5.2. Agregar la Clave SSH a GitLab:
+## 5.2. Agregar la Clave SSH a GitLab
 - Iniciamos sesión con el Usuario que queramos trabajar.
 
 - Nos dirigimos a las Opciones de Usuario y clicamos en "**Preferences**".
