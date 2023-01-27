@@ -140,7 +140,7 @@ git_data_dirs({
 
 <br>
 
-- En mi caso solo he utilizado una Ruta.<br>
+- En mi caso solo he utilizado una Ruta que es [la unidad que fue agregada en la entrada anterior.](https://azanet.github.io/agregar-hdd-via-usb-a-raspberrypi-4/)<br>
 ![6c0d90a9f114779dcf91ddf7a2e9d203.png](/assets/images/instalar-gitlab-en-rpi4/6c0d90a9f114779dcf91ddf7a2e9d203.png)
 
 <br>
