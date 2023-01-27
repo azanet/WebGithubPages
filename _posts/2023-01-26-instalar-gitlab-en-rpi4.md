@@ -30,21 +30,21 @@ La intención es prescindir de servicios de terceros en la mayor parte de lo pos
 
 # Índice
       
-1. [Introducción](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#1-introducci%C3%B3n)
+1. <a href="#1">Introducción</a>
 2. <a href="#2">Instalar GitLab</a>
-3. [Configurar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#3-configurar-gitlab)<br>
-3.1. [Configurar Acceso HTTP](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#31-configurar-acceso-http)<br>
-3.2. [Configurar Acceso HTTPS](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#32-configurar-acceso-https)<br>
-3.3 [Configurar Ruta de Almacenamiento de Repositorios](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#33-configurar-ruta-de-almacenamiento-de-repositorios)
-4. [Crear Usuario en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#4-crear-usuario-en-gitlab)
-5. [Generar e Importar Claves SSH en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#5-generar-e-importar-claves-ssh-en-gitlab)<br>
-5.1. [Crear clave SSH en Linux](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#51-crear-clave-ssh-en-linux)<br>
-5.2. [Agregar la Clave SSH a GitLab]()<br>
-6. [Crear Repositorio en GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#6-crear-repositorio-en-gitlab)
+3. <a href="#3">Configurar GitLab</a><br>
+3.1. <a href="#3.1">Configurar Acceso HTTP</a><br>
+3.2. <a href="#3.2">Configurar Acceso HTTPS</a><br>
+3.3 <a href="#3.3">Configurar Ruta de Almacenamiento de Repositorios</a>
+4. <a href="#4">Crear Usuario en GitLab</a>
+5. <a href="#5">Generar e Importar Claves SSH en GitLab</a><br>
+5.1. <a href="#5.1">Crear clave SSH en Linux</a><br>
+5.2. <a href="#5.2">Agregar la Clave SSH a GitLab</a><br>
+6. <a href="#6">Crear Repositorio en GitLab</a>
 
 <br><br><br>
 
-# 1. Introducción
+# <a id="1">1. Introducción</a>
 
 GitLab ofrece un portal Web muy parecido al de Github que nos ayuda a gestionar fácilmente <b>nuestro servidor Git</b>.
 
@@ -91,7 +91,7 @@ Para comenzar la instalación de GitLab en la RaspberryPi 4:<br>
 
 <br><br><br><br>
 
-# 3. Configurar GitLab
+# <a id="3">3. Configurar GitLab</a>
 Para configurar GitLab, debemos editar su correspondiente fichero de configuración que se encuentra en la ruta "<b>/etc/gitlab/gitlab.rb</b>", en este, podemos configurar la URL externa, certificados, etc...<br>
 
 - Para editar el fichero de configuración de GitLab ejecutamos:
@@ -101,7 +101,7 @@ Para configurar GitLab, debemos editar su correspondiente fichero de configuraci
 
 <br>
 
-## 3.1. Configurar Acceso HTTP
+## <a id="3.1">3.1. Configurar Acceso HTTP</a>
 
 Procedemos a establecer la IP o Dominio y Puerto por el que accederemos a GitLab.
 - Buscamos la linea que comienza con "<b>external_url</b>".
@@ -113,7 +113,7 @@ Procedemos a establecer la IP o Dominio y Puerto por el que accederemos a GitLab
 
 <br><br>
 
-## 3.2. Configurar Acceso HTTPS
+## <a id="3.2">3.2. Configurar Acceso HTTPS</a>
 En el caso que ya tengamos certificados SSL, procedemos a establecer la IP o Dominio, Puerto y los certificados SSL que se utilizarán para acceder a GitLab: 
 - En el archivo "**/etc/gitlab/gitlab.rb**" localizamos la linea que comienza con "<b>external_url</b>"
 
@@ -133,7 +133,7 @@ nginx['ssl_certificate_key'] = "/etc/ssl/private/gitlab.key"
 
 <br><br>
 
-## 3.3 Configurar Ruta de Almacenamiento de Repositorios
+## <a id="3.3">3.3 Configurar Ruta de Almacenamiento de Repositorios</a>
 - Para configurar una Ruta "customizada" para almacenar los repositorios, incluir estas líneas en el archivo cambiando el valor de "**path**" por la Ruta que corresponda.
 ```
 git_data_dirs({
@@ -181,7 +181,7 @@ git_data_dirs({
 <br><br> <br> <br>
 
 
-# 4. Crear Usuario en GitLab
+# <a id="4">4. Crear Usuario en GitLab</a>
 
 - Para crear un nuevo usuario de GitLab, Iniciamos sesión con el Usuario "<b>root</b>".
 
@@ -208,12 +208,12 @@ Posteriormente el sistema le solicitará el cambio obligatorio de la contraseña
 <br><br><br><br>
 
 
-# 5. Generar e Importar Claves SSH en GitLab
+# <a id="5">5. Generar e Importar Claves SSH en GitLab</a>
 
 Para poder trabajar con los repositorios desde local hacia GitLab y viceversa, es necesario configurar las claves SSH para poder conectar con el repositorio.
 <br><br>
 
-## 5.1. Crear clave SSH en Linux
+## <a id="5.1">5.1. Crear clave SSH en Linux</a>
 Para <b>generar una clave SSH</b>:
 
 - En la Raspberry, abrimos un terminal y nos situamos en la carpeta "**.ssh**" que se encuentra en el "**Home**"" del usuario.
@@ -253,7 +253,7 @@ Para <b>generar una clave SSH</b>:
 
 <br><br>
 
-## 5.2. Agregar la Clave SSH a GitLab
+## <a id="5.2">5.2. Agregar la Clave SSH a GitLab</a>
 - Iniciamos sesión con el Usuario que queramos trabajar.
 
 - Nos dirigimos a las Opciones de Usuario y clicamos en "**Preferences**".
@@ -288,7 +288,7 @@ Para <b>generar una clave SSH</b>:
 <br><br><br><br>    
 
 
-# 6. Crear Repositorio en GitLab
+# <a id="6">6. Crear Repositorio en GitLab</a>
 Para crear un nuestro primer repositorio en GitLab:
 - Accedemos al "<b>Página principal del Usuario</b>", y pulsamos el botón "<b>New Project</b>"
 ![newProject.png](/assets/images/instalar-gitlab-en-rpi4/newProject.png)
