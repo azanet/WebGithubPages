@@ -163,7 +163,7 @@ git_data_dirs({
 
 <br>
 
-Si es la primera vez que accedemos, nos logueamos con el Usuario: "<b>root</b>"  y la "<b>contraseña autogenerada</b>" que podremos encontrar en el siguiente archivo:
+- La primera vez que accedamos a GitLab, nos logueamos con el Usuario: "<b>root</b>"  y la "<b>contraseña autogenerada</b>" que podremos encontrar en el siguiente archivo:
 ```
   sudo cat /etc/gitlab/initial_root_password
 ```
