@@ -31,7 +31,7 @@ La intención es prescindir de servicios de terceros en la mayor parte de lo pos
 # Índice
       
 1. [Introducción](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#1-introducci%C3%B3n)
-2. [Instalar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#2-instalar-gitlab)
+2. <a href="#2">Instalar GitLab</a>
 3. [Configurar GitLab](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#3-configurar-gitlab)<br>
 3.1. [Configurar Acceso HTTP](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#31-configurar-acceso-http)<br>
 3.2. [Configurar Acceso HTTPS](https://github.com/azanet/azanet.github.io/blob/master/_posts/2023-01-26-instalar-gitlab-en-rpi4.md#32-configurar-acceso-https)<br>
@@ -57,7 +57,7 @@ Para realizar esta instalación se han utilizado las instrucciones de la página
 - <a href="https://about.gitlab.com/install/#raspberry-pi-os" target="_blank">https://about.gitlab.com/install/#raspberry-pi-os</a><b></b>.
 <br><br><br><br>
 
-# 2. Instalar GitLab
+# <a id="2">2. Instalar GitLab</a>
 
 Para comenzar la instalación de GitLab en la RaspberryPi 4:<br>
 - Iniciamos sesión en Raspberry, ya sea por SSH, VNC, RDP o directamente desde el dispositivo.
