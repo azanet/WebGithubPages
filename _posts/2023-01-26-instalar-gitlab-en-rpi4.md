@@ -298,7 +298,7 @@ Para crear un nuestro primer repositorio en GitLab:
    
 <br>
 
-- Vamos a crear un **proyecto en blanco**, por lo que pulsamos en "**Create blank project**".
+- Vamos a crear un **proyecto en blanco**, por lo que pulsamos en "**Create blank project**".<br>
 *Se mostrará un formulario donde nos solicitarán varios datos para establecer la información del repositorio y el tipo de visibilidad de este (público, privado, etc..)*
 ![mi_test_repo.png](/assets/images/instalar-gitlab-en-rpi4/mi_test_repo.png)
 
@@ -329,7 +329,6 @@ Para crear un nuestro primer repositorio en GitLab:
 ![interior_repo.png](/assets/images/instalar-gitlab-en-rpi4/interior_repo.png)
 
 <br>
-
 - Con esto concluimos la instalación de nuestro **GitLab**.
 
 <br><br><br>
