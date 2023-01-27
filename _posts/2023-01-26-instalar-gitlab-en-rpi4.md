@@ -101,7 +101,9 @@ Para configurar GitLab, debemos editar su correspondiente fichero de configuraci
 
 Procedemos a establecer la IP o Dominio y Puerto por el que accederemos a GitLab.
 - Buscamos la linea que comienza con "<b>external_url</b>".
+
 - En mi caso, como el servicio solo quiero que sea visible dentro de mi red, establezco como URL la "<b>IP Privada de la Raspberry</b>" y el puerto "<b>8888</b>".
+
 - Por lo tanto el valor de  mi "<b>external_url</b>" sería "<b>http://192.168.1.10:8888</b>. "
 ![external_url.png](/assets/images/instalar-gitlab-en-rpi4/external_url.png)
 
@@ -177,8 +179,9 @@ Si es la primera vez que accedemos, nos logueamos con el Usuario: "<b>root</b>" 
 
 # 4. Crear Usuario en GitLab
 
-- Para crear un nuevo usuario de GitLab, Iniciamos sesión con el Usuario "<b>root</b>"
-- Nos dirigimos a la opción de menú "<b>Admin Area</b>"
+- Para crear un nuevo usuario de GitLab, Iniciamos sesión con el Usuario "<b>root</b>".
+
+- Nos dirigimos a la opción de menú "<b>Admin Area</b>".
 ![admin_config.png](/assets/images/instalar-gitlab-en-rpi4/admin_config.png)
 
 <br>
@@ -213,20 +216,19 @@ Para <b>generar una clave SSH</b>:
 ```
   cd ~/.ssh
 ```
-
+<br>
 - (En caso de no existir la carpeta, la creamos)
 ```
   mkdir ~/.ssh
 ```
-
+<br>
 - Una vez dentro de la carpeta, procedemos a generar la clave SSH necesitamos abrir un terminal y ejecutar:
 ```
   ssh-keygen -t rsa
 ```
-  - Nos solicitará un nombre y una contraseña que son opcionales, aunque sería recomendable establecerlos.
+
+- Nos solicitará un nombre y una contraseña que son opcionales, aunque sería recomendable establecerlos.
 ![generating_ssh_key.png](/assets/images/instalar-gitlab-en-rpi4/generating_ssh_key.png)
-
-
 
 <br>
 
@@ -239,7 +241,7 @@ Para <b>generar una clave SSH</b>:
 
 <br><br>
 
-- Por último, **Establecer los permisos** de la carpeta "**ssh**" y las "**claves SSH**" ejecutamos los comandos:
+- Por último, **Establecer los permisos** de la carpeta "**ssh**" y las "**claves SSH**" ejecutando los comandos:
 ```
   chmod 700 ~/.ssh
   chmod 600 ~/.ssh/*
@@ -249,6 +251,7 @@ Para <b>generar una clave SSH</b>:
 
 ## 5.2. Agregar la Clave SSH a GitLab:
 - Iniciamos sesión con el Usuario que queramos trabajar.
+
 - Nos dirigimos a las Opciones de Usuario y clicamos en "**Preferences**".
 ![user_preferences.png](/assets/images/instalar-gitlab-en-rpi4/user_preferences.png)
 
@@ -260,10 +263,13 @@ Para <b>generar una clave SSH</b>:
 <br>
 
 - Una vez dentro de "**SSH Keys**", observaremos el formulario a rellenar para agregar una nueva Clave de SSH.
-  - En el campo "<b>Key</b>": tenemos que <b>pegar la Clave SSH que generamos anteriormente</b>.
-  - En el campo "<b>Title</b>": establecemos el nombre de la clave, puede ser algo que nos ayude a identificar el dispositivo que la utiliza.
-  - En el campo "<b>Usage type</b>": establecemos el tipo de uso para la Clave SSH, es recomendable dejarlo por defecto.
-  - El campo "<b>Expiration Date</b>" [es opcional]: podemos darle una fecha de expiración a la Clave SSH o indicarle que nunca caduque.
+  - "<b>Key</b>": tenemos que <b>pegar la Clave SSH que generamos anteriormente</b>.
+  
+  - "<b>Title</b>": establecemos el nombre de la clave, puede ser algo que nos ayude a identificar el dispositivo que la utiliza.
+  
+  - "<b>Usage type</b>": establecemos el tipo de uso para la Clave SSH, es recomendable dejarlo por defecto.
+  
+  - "<b>Expiration Date</b>" [es opcional]: podemos darle una fecha de expiración a la Clave SSH o indicarle que nunca caduque.
 ![add_key_gitlab.png](/assets/images/instalar-gitlab-en-rpi4/add_key_gitlab.png)
 
 <br>
