@@ -82,7 +82,6 @@ Para comenzar la instalación de GitLab en la RaspberryPi 4:<br>
 ```
 
 <br>
-
 <b>Toca esperar pacientemente a que se instale</b>, *Mientras nos bebemos una cafetera...*
 
 <br><br><br><br>
